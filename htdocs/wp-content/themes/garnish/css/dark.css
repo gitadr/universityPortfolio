@@ -1,0 +1,235 @@
+/*==========================================================================================
+	
+Dark CSS File
+This file contains styles related to the colour scheme of the theme
+
+==========================================================================================
+
+	1.	Global Colours
+	2.	Header Colours
+	3.	Home template Colours
+	4.	Post Formats
+	5.	Widgets
+	6. 	Comments
+	7. 	Shortcodes
+
+==========================================================================================*/
+
+/*==========================================================================================
+	1.	Global Colours
+==========================================================================================*/
+
+body { 
+	background: #393b3c;
+	color: #8e9194;
+}
+
+
+input,
+textarea{
+	border: 1px solid #0c0d0d;
+	background: #1e1f20;
+	color: #dedfe2;
+	-webkit-box-shadow: inset 0 1px 4px rgba(0,0,0, 0.5), -5px -5px 0 0 #313334, 5px 5px 0 0 #313334, 5px 0 0 0 #313334, 0 5px 0 0 #313334, 5px -5px 0 0 #313334, -5px 5px 0 0 #313334;
+	   -moz-box-shadow: inset 0 1px 4px rgba(0,0,0, 0.5), -5px -5px 0 0 #313334, 5px 5px 0 0 #313334, 5px 0 0 0 #313334, 0 5px 0 0 #313334, 5px -5px 0 0 #313334, -5px 5px 0 0 #313334;
+    		box-shadow: inset 0 1px 4px rgba(0,0,0, 0.5), -5px -5px 0 0 #313334, 5px 5px 0 0 #313334, 5px 0 0 0 #313334, 0 5px 0 0 #313334, 5px -5px 0 0 #313334, -5px 5px 0 0 #313334;
+}
+
+input:focus,
+textarea:focus{
+	border: 1px solid #0c0d0d;
+	background: #1e1f20;
+	-webkit-box-shadow: inset 0 1px 4px rgba(0,0,0, 0.5), -5px -5px 0 0 #292a2b, 5px 5px 0 0 #292a2b, 5px 0 0 0 #292a2b, 0 5px 0 0 #292a2b, 5px -5px 0 0 #292a2b, -5px 5px 0 0 #292a2b;
+	   -moz-box-shadow: inset 0 1px 4px rgba(0,0,0, 0.5), -5px -5px 0 0 #292a2b, 5px 5px 0 0 #292a2b, 5px 0 0 0 #292a2b, 0 5px 0 0 #292a2b, 5px -5px 0 0 #292a2b, -5px 5px 0 0 #292a2b;
+    		box-shadow: inset 0 1px 4px rgba(0,0,0, 0.5), -5px -5px 0 0 #292a2b, 5px 5px 0 0 #292a2b, 5px 0 0 0 #292a2b, 0 5px 0 0 #292a2b, 5px -5px 0 0 #292a2b, -5px 5px 0 0 #292a2b;
+}
+
+#tagline span,
+#primary-nav ul li.sfHover li a,
+a { 
+	color: #dedfe2; 
+}
+
+#primary-nav ul a:hover,
+#primary-nav ul li.sfHover li a:hover,
+#primary-nav ul li.current-cat a,
+#primary-nav ul li.current_page_item a,
+#primary-nav ul li.current-menu-item a,
+a:hover { 
+	color: #8e9194; 
+}
+
+.line { border-bottom: 1px solid #515355; }
+
+.post-thumb .overlay,
+.overlay { background: url(../images/dark/overlay.png) repeat; }
+
+.overlay .arrow { background: url(../images/dark/arrow.gif) repeat; }
+
+/*==========================================================================================
+	2.	Header Colours
+==========================================================================================*/
+
+#primary-nav ul ul { 
+	border-left: 1px solid #515355; 
+	background: #393b3c;
+}
+
+/*==========================================================================================
+	3.	Home template Colours
+==========================================================================================*/
+
+#loading{ background: #393b3c url(../images/dark/ajax-loader.gif) center no-repeat; }
+
+#portfolio-items .overlay .entry-content,
+#portfolio-terms a.active { color: #8e9194; }
+
+#portfolio-items .entry-title { color: #dedfe2; }
+
+#portfolio-items .hentry .line { border-bottom: 1px solid #515355; }
+
+#portfolio-items .entry-content { 
+	color: #dedfe2; 
+}
+
+#portfolio-items li { background: #252627; }
+
+#magic-door-wrap {
+	border-bottom: 1px solid #222324;
+	border-top: 1px solid #222324;
+	background: #252627;
+}
+
+#magic-door .line { border-bottom: 1px solid #3d3e40; }
+
+#magic-door .entry-content a:hover, 
+#magic-door .entry-title,
+#magic-door .entry-content { 
+	color: #dedfe2; 
+}
+
+#magic-door .entry-content a { color: #8e9194; }
+
+#portfolio-nav li a { background-image: url(../images/dark/portfolio_nav.gif); }
+
+#slider .pagination li a,
+.slider .pagination li a { 
+	background-image: url(../images/dark/slider_nav.png); 
+}
+
+/*==========================================================================================
+	4.	Post Formats
+==========================================================================================*/
+
+.published { border-top: 1px solid #515355; }
+
+.overlay .entry-content,
+.navigation a:hover,
+.published a:hover,
+.published,
+.entry-title,
+.entry-content,
+.entry-content a:hover,
+.entry-meta a:hover { 
+	color: #dedfe2; 
+}
+
+.published a { color: #8e9194; }
+
+.entry-content a { 
+	color: #8e9194;
+	border-bottom: 1px solid #515355;
+}
+
+.navigation a,
+.entry-meta a { color: #8e9194; }
+
+.comment-reply-link,
+.format-link .entry-title a span,
+.more-link span { background: url(../images/dark/more_link_arrow.png) right center no-repeat; }
+
+blockquote { 
+	border-left: 2px solid #8e9194; 
+	color: #8e9194;
+}
+
+pre { background: url(../images/dark/pre.gif) repeat; }
+
+code { background: #333536; }
+
+/*==========================================================================================
+	5.	Widgets
+==========================================================================================*/
+
+.widget_search input:focus,
+.widget-title { color: #dedfe2; }
+
+.widget_search input,
+.widget a { color: #8e9194; }
+
+.widget,
+.widget a:hover { color: #dedfe2; }
+
+.flickr_badge_image a img { border: 4px solid #515355; }
+
+.flickr_badge_image a:hover img { border: 4px solid #dedfe2; }
+
+/*==========================================================================================
+	6.	Comments
+==========================================================================================*/
+
+.left-line,
+.right-line,
+.comment-body,
+.comment-meta,
+#respond-caption { 
+	border-top: 1px solid #515355; 
+	color: #dedfe2;
+}
+
+.author span a:hover,
+.author a:hover,
+a:hover.comment-reply-link,
+#comments,
+#respond label,
+#respond h3 { color: #dedfe2; }
+
+.author span a,
+.comment-reply-link,
+#respond label span,
+#respond label small { 
+	color: #8e9194; 
+}
+
+.contactform #submit-button,
+#commentform #submit-button {
+	background: url(../images/dark/submit_button.png);
+	color: #555555;
+}
+
+.contactform #submit-button:hover,
+#commentform #submit-button:hover { background: url(../images/dark/submit_button.png) 0 -30px; }
+
+/*==========================================================================================
+	7.	Shortcodes
+==========================================================================================*/
+
+.tabs ul.nav li a { background: #353535; }
+
+.tabs ul.nav li.ui-tabs-selected a { 
+	background: #2D2E2F; 
+	color: #fff;
+}
+
+.tabs .tab {
+	background: #2D2E2F;
+	color: #fff;
+}
+
+.toggle h4 {
+	background: #2D2E2F;
+	color: #fff;
+	margin-bottom: 1px;
+}
+
+.toggle-inner { background: #2D2E2F; }

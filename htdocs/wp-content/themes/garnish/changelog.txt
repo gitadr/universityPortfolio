@@ -1,0 +1,86 @@
+*** Garnish Changelog ***
+
+05 Jan 2011 - Version 1.2.3
+
+	* functions.php 
+		- wp_enqueue_scripts fix
+		- force insert to post button fix
+	* jquery.jplayer.min.js - updated to version 2.1
+	* audio.php - moved audio output to tz_audio() function
+	* video.php - moved video output to tz_video() function
+	* single-portfolio.php 
+		- fixed logic and simplified file
+		- moved audio and video output to tz_audio() and tz_video() functions
+	* home-magicdoor.php 
+		- fixed logic and simplified file
+		- moved audio and video output to tz_audio() and tz_video() functions
+	* home-magicdoor_alt.php 
+		- fixed logic and simplified file
+		- moved audio and video output to tz_audio() and tz_video() functions
+	* theme-functions.php - updated the tz_audio() and tz_video() functions
+	* style.css - updated version number
+	* widget-twitter.php - allow for multiple instances on same page
+	* jquery.custom.js - remove image batch load to "improve" site speed
+	
+	ADDED:
+	twitter.js
+
+11 Oct 2011 - Version 1.2.2
+
+	* theme-functions.php - add stripslashes to custom CSS output.
+	* home-magicdoor.php - Removed the_excerpt() in favor of the_content()
+
+19 Sept 2011 - Version 1.2.1
+
+	* js/jquery.custom.js - Magic door now waits for images to load before opening
+	* includes/home-magicdoor.php - Support for the above
+	* single-portfolio.php - Fixed bug when post had no skill types assigned
+	* tinymce/plugin.js - Updated image URL
+	* tinymce/config.php - Fixed shortcode bug
+	* functions/theme-portfoliometa.php - Removed unnecessary option, fixed dimensions
+	* functions/theme-shortcodes.php - Tabs now support multiple instances
+	* style.css - Version number change
+	
+05 Aug 2011 - Version 1.2
+	
+	* admin/admin-interface.php - Updated HTML
+	* admin/admin-styles.css - Updated styling
+	* functions/theme-shortcodes.php - Minor bug fixes
+	* functions/theme-functions.php - Removed un-needed functions
+	* functions/theme-options.php - Added option notes
+	* functions/widget-flickr.php - Added type attribute
+	* functions/widget-video.php - Added type attribute
+	* functions/widget-tweets.php - New code
+	* functions/js/upload-button.js - Added more image upload fields
+	* functions/theme-portfoliometa.php - Added more image upload fields
+	* includes/home-magicdoor.php - Minor bug fix
+	* js/jquery.custom.js - Fixed videos still playing when close button was pressed.
+	* functions.php - Updated file paths, removed un-needed image sizes
+	* style.css - Added gallery styling
+	* single-portfolio.php - Fixed error showing if no terms were available. Added more images.
+	* index.php - Now shows if no posts are available.
+	* template-contact.php - Fixed bugs
+	
+	* MOVED admin/theme-functions.php to functions/ directory
+	* MOVED admin/theme-options.php to functions/ directory
+	
+	* ADDED tinymce/
+	
+	* REMOVED functions/tinymce/
+	* REMOVED functions/twitter-function.php
+	* REMOVED functions/cache/
+
+30 June 2011 - Version 1.1
+	
+	* page.php - Fixed comment caption display.
+	* functions/theme-portfoliometa.php - Added custom video and audio support.
+	* includes/home-magicdoor.php - Enabled custom video and audio playback.
+	* single-portfolio.php - Enabled custom video and audio playback.
+	* admin/theme-functions.php - Audio function modified.
+	* style.css - Video/Audio adjustments and pagination.
+	
+	* ADDED New alternative homepage template which supports pagination.
+
+26 June 2011 - Version 1.0
+	
+	* First Release.

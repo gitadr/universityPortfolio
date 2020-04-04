@@ -1,0 +1,37 @@
+#main {	
+	margin-right: auto;	
+	margin-left: auto;
+	margin-top: 200px;
+	width: 800px;
+	height: 600px;
+	color: #000000;
+	}
+	
+h2 {
+	font-family:"Karmina Sans Regular",sans-serif;
+	font-weight:bold;
+	font-style:normal;
+	font-size: 22px;
+	
+	}	
+
+body {
+	line-height: 26px;
+	font-family: "Karmina Sans Regular", sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration: none;
+	color: #000000;
+	}
+	
+a.foo {
+color: #000000;
+text-decoration: none;
+-webkit-transition: color 0.5s ease;
+-moz-transition: color 0.5s ease;
+-o-transition:color 0.5s ease;
+transition: color 0.3s ease;
+
+}	
+a.foo:hover {color: #00B2A9; text-decoration: none;}
